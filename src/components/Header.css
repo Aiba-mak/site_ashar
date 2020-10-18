@@ -1,0 +1,163 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.HeaderMainDiv {
+    background-color: black !important;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderNavbarBrand {
+    color: white !important;
+    align-items: center;
+}
+
+.HeaderLogo {
+    height: 80px;
+    width: 63px;
+    background-image: url(../assets/logo.png);
+    background-size: contain;
+    /* background-color:black; */
+    left: 50px;
+}
+.HeaderNavlinks {
+    color: white !important;
+    /* height: 100px; */
+    /* width: 150px; */
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    left: 50%;
+    transform: scale !important;
+    /* line-break: 20%; */
+    /* line-clamp: 50px; */
+    letter-spacing: 1px;
+    padding-left: 50%;
+} 
+
+.mr-auto {
+    word-spacing: 5px;
+}
+
+#basic-nav-dropdown {
+    color: white !important;
+
+} 
+
+.navbar{
+    margin: 0 !important;
+    padding: 8px !important;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgba(29, 28, 28, 0.856); */
+}
+.nav{
+    justify-content: space-between;
+}
+
+.imgcarousel{
+    height: 650px;
+    object-fit: cover;
+}
+
+.NavDropDown {
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+
+.NavDropDown:hover .dropdown-menu{
+    transition: 0.5s !important;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.dropdown-menu{
+    background-color: rgb(0, 0, 0) !important;
+    /* border: none !important; */
+    color: white;
+    opacity: 0.78;
+}
+
+
+
+span{
+    margin: 0px;
+    padding: 0px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.jcb{
+    display: flex;
+    justify-content: space-between;
+}
+.calculate{
+    width: 700px;
+    background: #f0f0f0;
+    padding: 0px;
+}
+.calculate__result{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.calculate__form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.btn_calculate{
+    padding: 0px;
+    padding: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    border:none;
+    border-radius: 4px;
+    background: #949494;
+    outline: none;
+}
+.currency{
+    color: red;
+}
+
+@media (max-width: 900px) { 
+    .calculate{
+        width: 500px;
+    }
+    .calculate__form{
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+    }
+    .calc_result{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+@media (max-width: 500px) { 
+    .calculate{
+        width: 300px;
+    }
+    .calculate__form{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .calc_result{
+        display: flex;
+        flex-direction: column;
+    }
+ }
+
+
+
+
+
+
