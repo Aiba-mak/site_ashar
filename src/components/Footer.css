@@ -1,34 +1,40 @@
 .footer{
-    background-image: url(../assets/images/ned04.jpg);
+    /* background-image: url(../assets/images/ned04.jpg); */
     background-size: cover;
 }
 .footercontainer{
-    background-color: rgba(7, 5, 112, 0.5);
+    background-color: rgb(7, 7, 116);
     
 }
 
-.top-underline {
+/* .top-underline {
     max-width: 100%;
     height: 1px;
     background-color: rgb(146, 146, 146);
-}
-
+} */
+/* 
 .bottom-underline {
     max-width: 100%;
     height: 1px;
     background-color: rgb(146, 146, 146);
-}
+} */
 
-.top-services {
+/* .top-services {
     width: 100%;
     margin: 0 auto;
     font-size: 13px;
-}
+} */
 
+.img {
+    height: 200px;
+    background-color: none;
+    line-height: center;
+
+}
 
 /* .footer-specs {} */
 
-.spec {
+/* .spec {
     display: inline;
     margin: 0 2.33333333rem
 }
@@ -40,27 +46,27 @@
     display: inline-block;
     width: 20px;
     height: 20px;
-}
+} */
 
-.icon-cycle {
+/* .icon-cycle {
     background-image: url(../assets/icons/cycle.svg);
     background-size: contain;
-}
-
+} */
+/* 
 .icon-repair {
     background-image: url(../assets/icons/fix.svg);
     background-size: contain;
-}
+} */
 
-.icon-delivery {
+/* .icon-delivery {
     background-image: url(../assets/icons/delivery.svg);
     background-size: contain;
-}
+} */
 
-.icon-wallet {
+/* .icon-wallet {
     background-image: url(../assets/icons/wallet.svg);
     background-size: contain;
-}
+} */
 
 .footer-menu {
     border-top: 1px solid #e4e4e4;
@@ -79,15 +85,16 @@
     display: flex;
     text-align: left;
     color: white;
-    font-size: 12px;
-    width: 20%;
+    font-size: 15px;
+    width: 30%;
+    font-family: Georgia;
 }
 
 a {
     color: white !important;
     cursor: pointer;
 }
-
+/* 
 .social-facebook {
     height: 20px;
     width: 20px;
@@ -135,7 +142,7 @@ a {
 .onas:hover{
     color:red
 }
-
+ */
 
 
 

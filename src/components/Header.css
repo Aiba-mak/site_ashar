@@ -3,7 +3,7 @@
     padding: 0;
 }
 .HeaderMainDiv {
-    background-color: black !important;
+    background-color: rgb(7, 7, 116) !important;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@
 
 .imgcarousel{
     height: 650px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .NavDropDown {
@@ -77,10 +77,10 @@
 }
 
 .dropdown-menu{
-    background-color: rgb(0, 0, 0) !important;
+    background-color:  rgb(7, 7, 116) !important;
     /* border: none !important; */
     color: white;
-    opacity: 0.78;
+    opacity: 0.75;
 }
 
 

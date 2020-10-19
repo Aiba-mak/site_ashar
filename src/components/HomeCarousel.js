@@ -18,7 +18,7 @@ function HomeCarousel() {
               
             />
             <Carousel.Caption>
-              <h1>Построй дом в россрочку на 10 лет без %</h1>
+              <h1 className="txt1">Построй дом в россрочку на 10 лет без %</h1>
               {/* <p>......</p> */}
             </Carousel.Caption>
           </Carousel.Item>
@@ -30,7 +30,7 @@ function HomeCarousel() {
             />
 
             <Carousel.Caption>
-              <h1>Купи квартиру в рассрочку на 10 лет без %</h1>
+              <h1 className="txt1">Купи квартиру в рассрочку на 10 лет без %</h1>
               {/* <p>... ...</p> */}
             </Carousel.Caption>
           </Carousel.Item>
