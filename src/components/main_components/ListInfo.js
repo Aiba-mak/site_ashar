@@ -7,11 +7,13 @@ function ListInfo() {
   return (
     <div className="body">
       <div >
-            <img className="image" src='https://trcvr.ru/wp-content/uploads/2017/08/top-5-business-laptops.png'/>
+            <img className="image1" src='https://trcvr.ru/wp-content/uploads/2017/08/top-5-business-laptops.png'/>
           </div>
       <Container>
         <div className="d-flex">
-          
+        <div >
+            <img className="image" src='https://trcvr.ru/wp-content/uploads/2017/08/top-5-business-laptops.png'/>
+          </div>
           <Card className="ml-3">
             <CardBody>
               <CardText >

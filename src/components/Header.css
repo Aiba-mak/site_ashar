@@ -1,11 +1,6 @@
-/* @media screen and (color) {  */
-/* @media (max-width: 2000px) { */
-    .d-flex{
-        
-    }
+
     .HeaderMainDiv {
         background-color: rgb(7, 7, 116) !important;
-        /* background-color: rgb(4, 141, 88) !important; */
         color: white;
         display: flex;
         justify-content: space-between;
@@ -24,17 +19,10 @@
     }
     .HeaderNavlinks {
         color: white !important;
-        /* height: 100px; */
-        /* width: 150px; */
         font-family: Georgia;
         font-weight: bold;
         text-align: center;
         line-height: 50px;
-        /* left: 50%; */
-        /* transform: scale !important; */
-        /* line-break: 20%; */
-        /* padding: 100%; */
-        /* line-clamp: 50px; */
         letter-spacing: 1px;
         font-size: large;
     } 
@@ -50,12 +38,10 @@
         padding: 1px 0px;
         font-size: 17px;
         text-align: end;
-        /* padding: 100%; */
     }
 
     
     .otstup{
-        /* color: rgb(0, 0, 0); */
         color: rgb(85, 153, 30);
         margin-bottom: 0;
     }
@@ -79,13 +65,9 @@
     } 
 
     .navbar{
-        /* margin: 0 !important; */
         padding: 8px !important;
-        /* width: 100%; */
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* background-color: rgba(29, 28, 28, 0.856); */
     }
+
     .nav{
         justify-content: space-between;
     }
@@ -94,7 +76,6 @@
         height: 700px;
         display: table-cell;
         vertical-align: bottom;
-        /* width: 600px; */
         background-color: black;
         color: rgb(0, 0, 0);
     }
@@ -102,29 +83,24 @@
 
     .txt1 {
         position: relative;
-        /* width: 100%; */
         font-family: 'Times New Roman', Times, serif;
         font-weight: bold;
-        /* text-shadow:0 0 20px #ff0; */
         color: rgb(247, 242, 242);
         font-size: 35px;
 
     }
     .txt2 {
         font-family: 'Times New Roman', Times, serif;
-        /* color: rgb(0, 0, 0); */
         font-weight: bold;
         font-size: 40px;
-        /* text-shadow:0 0 20px #ff0; */
         color: rgb(255, 255, 255);
-        /* text-shadow: 0 0 10px rgba(255,255,0,0.3), 0 0 6px rgba(255,255,0,0.4), 0 0 10px rgba(255,255,0,0.3); */
     }
+
     .txt3 {
         font-family: 'Times New Roman', Times, serif;
         color: rgb(255, 255, 255);
         font-weight: bold;
         font-size: 40px;
-        /* text-shadow: 0 0 10px rgba(255,255,0,0.3), 0 0 6px rgba(255,255,0,0.4), 0 0 10px rgba(255,255,0,0.3); */
     }
 
     .NavDropDown {
@@ -132,7 +108,6 @@
         font-weight: bold;
         text-align: center;
         line-height: 50px;
-        
     }
 
     .pod{
@@ -147,7 +122,6 @@
 
     .dropdown-menu{
         background-color:  rgb(7, 7, 116) !important;
-        /* border: none !important; */
         color: white;
         opacity: 0.9;
     }
@@ -232,22 +206,14 @@
 
 
 @media (max-width: 480px) {
-    .fixed-top{
-        /* margin: 0; */
-        /* padding: 20px; */
-    }
     .HeaderMainDiv {
         background-color: rgb(7, 7, 116) !important;
         color: white;
         display: flex;
-        /* justify-content: space-between; */
-        /* width: 100%; */
-        /* height: 100%; */
     }
+
     .HeaderNavbarBrand {
-        /* color: white !important; */
-        /* align-items: start !important; */
-        /* margin-left: start; */
+
     }
 
     .HeaderLogo {
@@ -255,16 +221,11 @@
         width: 37px;
         background-image: url(../assets/logo.png);
         background-size: contain;
-        /* left: 50px; */
-        /* justify-content: start; */
-        /* position: static;
-        left: 110px; */
         }
     .HeaderNavlinks {
         color: white !important;
         font-family: Georgia;
         font-weight: bold;
-        /* text-align: center; */
         line-height: 10px;
         font-size: xx-small;
     } 
@@ -278,8 +239,6 @@
         background: rgb(85, 153, 30);
         color: white;
         padding: 1px 0px;
-        /* font-size: 8px; */
-        /* text-align: end; */
         width: 100%;
     }
 
@@ -313,9 +272,6 @@
 
     .nav{
         justify-content: start;
-        /* position: absolute; */
-        /* text-align: start; */
-
     }
 
     .imgcarousel{
@@ -330,34 +286,39 @@
     .txt1 {
         position: relative;
         font-family: 'Times New Roman', Times, serif;
-        font-weight: bold;
+        /* font-weight: bold; */
         color: rgb(34, 255, 5);
-        font-size: 15px;
+        font-size: 14px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
 
     }
     .txt2 {
         font-family: 'Times New Roman', Times, serif;
-        /* color: rgb(0, 0, 0); */
-        font-weight: bold;
-        font-size: 15px;
-        /* text-shadow:0 0 20px #ff0; */
+        /* font-weight: bold; */
+        font-size: 14px;
         color:rgb(34, 255, 5);
-        /* text-shadow: 0 0 10px rgba(255,255,0,0.3), 0 0 6px rgba(255,255,0,0.4), 0 0 10px rgba(255,255,0,0.3); */
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+
     }
     .txt3 {
         font-family: 'Times New Roman', Times, serif;
         color: rgb(34, 255, 5);
-        font-weight: bold;
-        font-size: 15px;
-        /* text-shadow: 0 0 10px rgba(255,255,0,0.3), 0 0 6px rgba(255,255,0,0.4), 0 0 10px rgba(255,255,0,0.3); */
+        /* font-weight: bold; */
+        font-size: 14px;
+        background-color: rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+    
+    .backph{
+        /* opacity: 50%; */
     }
 
     .NavDropDown {
         font-family: Georgia;
-        /* font-weight: ; */
         text-align: center;
         line-height: 10px;
-        /* font-size: xx-small !important; */
     }
 
     .pod{
@@ -372,7 +333,6 @@
 
     .dropdown-menu{
         background-color:  rgb(7, 7, 116) !important;
-        /* border: none !important; */
         color: white;
         opacity: 0.9;
     }
@@ -400,10 +360,9 @@
         padding: 20px;
     }
     .btn_calculate{
-        padding: 0px;
-        padding: 3px;
-        font-size: 10px;
-        font-weight: 300;
+        padding: 4px;
+        font-size: 20px;
+        font-weight: bold;
         color: white;
         border:none;
         border-radius: 4px;
@@ -447,13 +406,4 @@
             flex-direction: column;
         }
     }
-}
-
-
-.header-menu{
-    padding: 10px;
-}
-
-.d-flex{
-    /* justify-content: start; */
 }

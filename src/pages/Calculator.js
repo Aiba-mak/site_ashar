@@ -115,10 +115,9 @@ function Calculator(props) {
         <br></br><span>Ежемесячный платеж: {result.everyMonthPayment}</span>
         <br></br><span>Общая сумма выплаты: {result.totalSummPayment}</span>
         <br></br><Button onClick={() => setCalculate(false)} style={{
-          padding: '0px',
-          padding: '3px',
+          padding: '1px',
           fontSize: '20px',
-          fontWeight: '600',
+          fontWeight: 'bold',
           color: 'white',
           border: 'rgb(219, 56, 16) 2px solid',
           borderRadius: '4px',

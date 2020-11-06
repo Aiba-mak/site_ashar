@@ -34,11 +34,9 @@ return (<>
       <p className="sch"><FontAwesomeIcon icon={faClock} /> График р-ты: Пн-пт, 09:00 - 18:00</p>
     </div>
 
-    <div className="fixed-top" style={{position: "sticky"}}>
     <div className="HeaderMainDiv ">
       <Container>
-      {/* <nav className="header-menu mt-5">  
-        <div className="d-flex justify-content-around "> 
+        {/* <div className="d-flex justify-content-around "> 
          <NavLink className="HeaderLogo ml-5" href="/" ></NavLink>
          <NavLink className = "HeaderNavlinks" href="/">ГЛАВНАЯ</NavLink>
          <NavDropdown className = "NavDropDown" title="О НАС">                            
@@ -49,8 +47,7 @@ return (<>
          <NavLink className = "HeaderNavlinks" href="/questions">ВОПРОСЫ</NavLink>
          <NavLink className = "HeaderNavlinks" href="/contact">КОНТАКТЫ</NavLink>
          <NavLink className = "HeaderNavlinks" onClick={()=>setCalculate(true)}>КАЛЬКУЛЯТОР</NavLink>
-        </div>
-       </nav> */}
+        </div> */}
 
 
     <Navbar className='nav'>
@@ -73,10 +70,9 @@ return (<>
         <div className="animation start-home"></div>
     </Nav>
     </NavbarCollapse>
-    </Navbar>
+    </Navbar> 
     </Container>
     {calculate ? <Calculator calculate={calculate} setCalculate={setCalculate}/> : ''}
-    </div>
     </div>
     </>
   );
