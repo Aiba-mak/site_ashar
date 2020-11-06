@@ -6,7 +6,7 @@ function StepPrivating() {
   return (
     <div className="step_privating">
       <Container>
-        <h2 className="text-center">Этапы Приобретения</h2>
+        <h1 className="text-center1 ">Этапы Приобретения</h1>
         <div className="stepbox d-flex">
           <div className="bag mr-3">
             <div className="bag01"/>
@@ -28,8 +28,8 @@ function StepPrivating() {
             <h4>
             2. Заявление
             </h4>
-            <p>
-            Заполнить заявление вступление в некоммерческий кооператив Ашар.
+            <p className='usl'>
+            Заполнить заявление вступление в некоммерческий кооператив «Ашар».
             </p>
           </div>
         </div>
@@ -41,8 +41,8 @@ function StepPrivating() {
             <h4>
             3. Договор
             </h4>
-            <p>
-            Заключить Договор об участие в некоммерческом кооперативе «Ашар»
+            <p className='usl'>
+            Заключить Договор об участие в некоммерческом кооперативе «Ашар».
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ function StepPrivating() {
             <h4>
             6. Покупка недвижимости или строительство жилья
             </h4>
-            <p>
+            <p className='usl'>
             Документы оформляются на вас.
             </p>
           </div>

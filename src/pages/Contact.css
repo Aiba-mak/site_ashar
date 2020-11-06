@@ -1,0 +1,10 @@
+@media screen and (color) { 
+/* @media (max-width: 2000px) { */
+    .icons{
+        text-align: center;
+        justify-content: center;
+        margin: inherit;
+        padding: 10px;
+        font-size: 20px;
+    }
+}

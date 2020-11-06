@@ -7,10 +7,10 @@ import uch from '../assets/images/uch.jpg'
 function Condition() {
     return (
         <MDBCard className="my-5 px-5 pb-5">
-        <MDBCardBody>
-          <h2 className="h1-responsive font-weight-bold text-center my-5">
+        <MDBCardBody className="page">
+          <h1 className="h1-responsive font-weight-bold text-center my-5">
             Условия кооператива
-          </h2>
+          </h1>
           <p className="text-center w-responsive mx-auto mb-5">
             
           </p>

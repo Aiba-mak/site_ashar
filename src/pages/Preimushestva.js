@@ -2,16 +2,15 @@ import React from 'react'
 import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView, MDBBtn } from "mdbreact";
 import percent from '../assets/images/percent.jpg' 
 import pre from '../assets/images/pre.jpg' 
-import coop from '../assets/images/coop.jpg' 
-
+import coop from '../assets/images/coop.jpg'
 function Preimushestva() {
   return (
     <div>
       <MDBCard className="my-5 px-5 pb-5">
        <MDBCardBody>
-         <h2 className="h1-responsive font-weight-bold text-center my-5">
+         <h1 className="h1-responsive font-weight-bold text-center my-5">
            Преимущества нашего кооператива
-         </h2>
+         </h1>
          {/* <p className="text-center w-responsive mx-auto mb-5">
            Duis aute irure dolor in reprehenderit in voluptate velit esse
            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat

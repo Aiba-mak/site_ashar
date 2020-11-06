@@ -2,18 +2,49 @@
   margin-top: 50px;
   margin-bottom: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .razdelitel{
-  width: 20px;
+  width: 15px;
   height: 100px;
   background-color: blue;
 }
 
 .info_item{
-  font-size: 18px;
+  font-size: 22px;
+  font-family: Times, serif;
 }
+
 .info_title{
-  font-size: 24px;
+  font-size: 22px;
+  font-family: Times, serif;
+}
+
+@media (max-width: 480px) {
+  .info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  
+  .razdelitel{
+    width: 15px;
+    height: 210px;
+    background-color: blue;
+  }
+  
+  .info_item{
+    text-align: start;
+    font-size: 100%;
+    font-family: Times, serif;
+    width: 350px;
+  }
+  
+  .info_title{
+    text-align: start;
+    font-size: 100%;
+    font-family: Times, serif;
+    width: 350px;
+  }
 }

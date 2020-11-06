@@ -1,0 +1,51 @@
+
+    .body{
+
+    }
+    .coop {
+        font-family: Georgia;
+        font-size: 18px;
+    }
+
+    .li {
+        font-family: Georgia;
+    }
+
+    .image{
+        height: 420px;
+        width: 555px;
+    }
+
+@media (max-width: 480px) {
+
+    .body{
+        
+        /* background-image: url(../../assets/images/noteb.png);
+        background-color: transparent; */
+    }
+
+    .coop {
+        font-family: Georgia;
+        font-size: 100%;
+    }
+
+    .li {
+        font-family: Georgia;
+        font-size: 100%;
+    }
+
+    .image{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .text{
+        font-size: 20px;
+        text-align: center;
+    }
+    .ml-3{
+        height: 100%;
+        width: 100%
+    }
+
+}

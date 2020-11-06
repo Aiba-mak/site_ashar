@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { MDBContainer, MDBCollapse, MDBCard, MDBCardBody, MDBRow, MDBMask, MDBCol, MDBView, MDBCollapseHeader } from "mdbreact";
 import './Home.css'
+import './Questions.css'
 import que from '../assets/images/que.jpg' 
 
 
@@ -18,9 +19,9 @@ render() {
 const { collapseID } = this.state;
   return (
     <div className="questions">
-      {/* <h2 className="text-center">Частые вопросы</h2> */}
+      <h2 className="text-center1">Частые вопросы</h2>
       <MDBRow>
-      <MDBCol lg="5">
+      {/* <MDBCol lg="5">
               <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                 <img
                   className="img-fluid"
@@ -31,14 +32,14 @@ const { collapseID } = this.state;
                   <MDBMask overlay="white-slight" />
                 </a>
               </MDBView>
-        </MDBCol>
+        </MDBCol> */}
         <MDBCol>
     <MDBContainer className="que">
-    <h2 className="text-center">Частые вопросы</h2>
+
       <MDBContainer className="mt-5">
         <MDBCard className="mt-3 mb-3">
           <div onClick={this.toggleCollapse("collapse1")}>
-            <h4>Что нужно сделать чтобы вы купили мне дом?</h4>
+            <h4 className="ms-7">Что нужно сделать чтобы вы купили мне дом?</h4>
             <i className={ collapseID==="collapse1" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
           </div>
           <MDBCollapse id="collapse1" isOpen={collapseID}>
@@ -50,7 +51,7 @@ const { collapseID } = this.state;
 
         <MDBCard className="mt-3 mb-3">
           <div onClick={this.toggleCollapse("collapse2")}>
-          <h4>Сколько времени нужно ждать чтобы вы купили нам дом?</h4>
+          <h4 className="ms-1">Сколько времени нужно ждать чтобы вы купили нам дом?</h4>
             <i className={ collapseID==="collapse2" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
           </div>
           <MDBCollapse id="collapse2" isOpen={collapseID}>
@@ -62,7 +63,7 @@ const { collapseID } = this.state;
 
         <MDBCard className="mt-3 mb-3">
           <div onClick={this.toggleCollapse("collapse3")}>
-          <h4>Вы только покупаете дома?</h4>
+          <h4 className="ms-2">Вы только покупаете дома?</h4>
             <i className={ collapseID==="collapse3" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
           </div>
           <MDBCollapse id="collapse3" isOpen={collapseID}>
@@ -74,7 +75,7 @@ const { collapseID } = this.state;
 
         <MDBCard className="mt-3 mb-3">
           <div onClick={this.toggleCollapse("collapse4")}>
-          <h4>Вы помогаете с покупкой дома по всей стране?</h4>
+          <h4 className="ms-3">Вы помогаете с покупкой дома по всей стране?</h4>
             <i className={ collapseID==="collapse3" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
           </div>
           <MDBCollapse id="collapse4" isOpen={collapseID}>
@@ -86,7 +87,7 @@ const { collapseID } = this.state;
 
         <MDBCard className="mt-3 mb-3">
           <div onClick={this.toggleCollapse("collapse5")}>
-          <h4>Вы помогаете с покупкой только участка?</h4>
+          <h4 className="ms-4">Вы помогаете с покупкой только участка?</h4>
             <i className={ collapseID==="collapse6" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
           </div>
           <MDBCollapse id="collapse5" isOpen={collapseID}>
@@ -98,7 +99,7 @@ const { collapseID } = this.state;
 
         <MDBCard className="mt-3 mb-3">
           <div onClick={this.toggleCollapse("collapse6")}>
-          <h4>А как будете определять цену строительства дома?</h4>
+          <h4 className="ms-5">А как будете определять цену строительства дома?</h4>
             <i className={ collapseID==="collapse6" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
           </div>
           <MDBCollapse id="collapse6" isOpen={collapseID}>
@@ -110,7 +111,7 @@ const { collapseID } = this.state;
 
         <MDBCard className="mt-3 mb-3">
           <div onClick={this.toggleCollapse("collapse7")}>
-          <h4>А если у нас есть участок вы поможете со строительством дома?</h4>
+          <h4 className="ms-6">А если у нас есть участок вы поможете со строительством дома?</h4>
             <i className={ collapseID==="collapse7" ? "fa fa-angle-down rotate-icon" : "fa fa-angle-down" } />
           </div>
           <MDBCollapse id="collapse7" isOpen={collapseID}>

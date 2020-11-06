@@ -1,5 +1,5 @@
 .card-body:hover{
-  background-color: #166413;
+  background-color:  rgb(7, 7, 116);
   color: white;
   
 }
@@ -28,8 +28,25 @@
   /* font-size: 250%; */
   font-weight: bold;
 }
+.mb-11 {
+  font-family: Georgia;
+  /* font-weight: bold; */
+  font-size: 130%;
+  /* font-weight: bold; */
+}
+
+.text-primary {
+  font-size: 200%;
+  font-weight: bold;
+  color: black !important;
+}
+.he {
+  font-weight: bold;
+  font-size: 30px;
+}
 .mb-5 {
-  font-family: Verdana;
+  font-family: Georgia;
+  /* font-weight: bold; */
   /* font-size: 250%; */
   /* font-weight: bold; */
 }

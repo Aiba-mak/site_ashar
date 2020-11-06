@@ -3,3 +3,21 @@
     float: left;
 
 } */
+@media screen and (color) { 
+/* @media (max-width: 2000px) { */
+    .my-5 {
+        height: 90%;
+        width: 90%;
+    }
+
+    .page {
+        height: 90%;
+        width: 90%;
+        padding: 90%;
+        border: 90%;
+    }
+    .h1{
+        color: white;
+        font-size: 300px;
+    }
+}
