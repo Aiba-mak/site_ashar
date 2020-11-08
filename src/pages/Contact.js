@@ -13,7 +13,7 @@ import {
     faClock, // the clock icon
     faUserCircle, // the user circle icon
     faMapMarkerAlt,
-    faPhoneSlash,
+    faPhone,
     faMobileAlt,
     faFacebook,
     faEnvelope,
@@ -80,7 +80,7 @@ function Contact(props) {
                 <MDBIcon icon="map-marker-alt" />
               </MDBBtn>
               <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-              <p className="icon"><FontAwesomeIcon icon={faMapMarkerAlt} /> Бишкек, ул. Киевская 107/1</p> 
+              <p className="icon"><FontAwesomeIcon icon={faMapMarkerAlt} /> Бишкек, ул. Киевская 107 | офис 301</p> 
               <p className="icon"><FontAwesomeIcon icon={faClock} /> График работы: Пн-пт, 9:00-18:00</p>
             </MDBCol>
             <MDBCol md="4">
@@ -88,8 +88,9 @@ function Contact(props) {
                 <MDBIcon icon="phone" />
               </MDBBtn>
 
-              <p href="tel:+996507566971"><FontAwesomeIcon icon={faMobileAlt} /> +996 (509) 515-500</p>
-              <p href="tel:+996507566971"><FontAwesomeIcon icon={faMobileAlt} /> +996 (559) 515-500</p>
+              <p href="tel:+996509515500"><FontAwesomeIcon icon={faMobileAlt} /> +996 (509) 515-500</p>
+              <p href="tel:+996559515500"><FontAwesomeIcon icon={faMobileAlt} /> +996 (559) 515-500</p>
+              <p href="tel:+996312611402"><FontAwesomeIcon icon={faPhone} /> +996 (312) 611-402</p>
               
             </MDBCol>
             <MDBCol md="4">

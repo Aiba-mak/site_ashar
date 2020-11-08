@@ -105,10 +105,10 @@ function Calculator(props) {
           <h4>Результат</h4>
           <div className="row jcb">
             <span>Первоначальный взнос 30%: {result.fisrtPayment}</span>
-            <span>Членский взнос, в месяц: {personalPayment}</span>
+            <span>Членский взнос в месяц: {personalPayment}</span>
           </div>
           <div className="row jcb">
-            <span>Вступительный взнос, 4%: {result.incomePayment}</span>
+            <span>Вступительный взнос 4%: {result.incomePayment}</span>
             <span>Сумма к получению: {result.summRecive}</span>
           </div>
         </div>
