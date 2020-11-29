@@ -7,7 +7,7 @@ function Calculator(props) {
   const [value, setValue] = useState('')
   const [years, setYears] = useState('1')
 
-  const personalPayment = 2000
+  const personalPayment = 0
   const [result, setResult] = useState({
     totalSummPayment: 0,
     fisrtPayment: 0,
@@ -43,13 +43,13 @@ function Calculator(props) {
     event.preventDefault();
     let val = value
     val = parseInt(val)
-    let time = years * 12
+    let time = years
     let data = { ...result }
-    data.fisrtPayment = val * 0.3
-    data.incomePayment = val * 0.04
+    data.fisrtPayment = val * 0.35
+    data.incomePayment = val * 0.14
     data.summRecive = val - data.fisrtPayment
-    data.everyMonthPayment = 2000 + parseInt(data.summRecive) / time
-    data.totalSummPayment = 2000 * time + val + parseFloat(data.incomePayment)
+    data.everyMonthPayment = 0 + parseInt(data.summRecive) / time
+    data.totalSummPayment = 0 * time + val + parseFloat(data.incomePayment)
 
     data.fisrtPayment = setGoodNumber(data.fisrtPayment)
     data.incomePayment = setGoodNumber(data.incomePayment)
@@ -88,27 +88,27 @@ function Calculator(props) {
     <Modal isOpen={calculate} style={{ width: 'min-content', textAlign: 'center' }}>
       <div className="calculate">
         <h1>КАЛЬКУЛЯТОР</h1>
-        <p>Заполните 2 поля: стоимость недвижимости и срок аренды!</p>
+        <p>Заполните 2 поля: стоимость авто и срок рассрочки!</p>
         <p>Нажмите на кнопку: "Рассчитать".</p>
-        <p className="currency">Валюта рассчета сом.</p>
+        <p className="currency">Валюта рассчета доллар.</p>
         <br></br>
         <form >
           <div className="calculate__form">
-            <label htmlFor="value" >Стоимость жилья:</label>
-            <input value={setNiceInput(value)} onChange={(e) => setValue(parseInput(e.target.value))} type="text" id="value" placeholder="Введите сумму, сом"></input>
-            <label htmlFor="value">Количество лет:</label>
-            <input value={years} onChange={e => setYears(e.target.value)} type="number" min="1" max="10"></input>
+            <label htmlFor="value" >Стоимость авто:</label>
+            <input value={setNiceInput(value)} onChange={(e) => setValue(parseInput(e.target.value))} type="text" id="value" placeholder="Введите сумму, доллар"></input>
+            <label htmlFor="value">Количество месяцев:</label>
+            <input value={years} onChange={e => setYears(e.target.value)} type="number" min="1" max="24"></input>
           </div>
           <button type="submit" onClick={(e) => Calculating(e)} className="btn_calculate">Рассчитать</button>
         </form>
         <div className="calculate__result">
           <h4>Результат</h4>
           <div className="row jcb">
-            <span>Первоначальный взнос 30%: {result.fisrtPayment}</span>
-            <span>Членский взнос в месяц: {personalPayment}</span>
+            <span>Первоначальный взнос 35%: {result.fisrtPayment}</span>
+            <span>Процентная ставка: {personalPayment}</span>
           </div>
           <div className="row jcb">
-            <span>Вступительный взнос 4%: {result.incomePayment}</span>
+            <span>Комиссия: {result.incomePayment}</span>
             <span>Сумма к получению: {result.summRecive}</span>
           </div>
         </div>

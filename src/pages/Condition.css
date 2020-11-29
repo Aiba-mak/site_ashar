@@ -1,23 +1,61 @@
-/* .img-fluid {
-    image: url(../assets/Семья.jpg)
+.h1{
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    height: 130px;
+    font-size: 60px;
+    font-family: Georgia;
+}
+.img-fluid {
     float: left;
+    width: 100%;
+}
 
-} */
-@media screen and (color) { 
-/* @media (max-width: 2000px) { */
-    .my-5 {
-        height: 90%;
-        width: 90%;
-    }
+.rounded{
+    width: 100%;
+    height: 100%;
+}
 
-    .page {
-        height: 90%;
-        width: 90%;
-        padding: 90%;
-        border: 90%;
-    }
+.tex{
+    font-family: Georgia;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+
+
+@media (max-width: 480px) {
     .h1{
-        color: white;
-        font-size: 300px;
+        text-align: center;
+        line-height: 50px;
+        font-weight: bold;
+        font-size: 25px;
+        height: 70px;
+        
     }
+
+    .fo{
+        text-align: center;
+        line-height: 20px;
+        font-weight: bold;
+        font-size: 20px;
+        
+    }
+
+    .img-fluid {
+        float: left;
+        width: 100%;
+    }
+    
+    .rounded{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .tex{
+        font-family: Georgia;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
 }

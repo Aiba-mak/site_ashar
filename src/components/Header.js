@@ -25,13 +25,13 @@ function Header() {
 
 return (<>
     <div className="Header_Contacts">
-      <a className="otstup1" href="mailto:ashar.kg@gmail.com"><FontAwesomeIcon icon={faEnvelope} /> ashar.kg@gmail.com</a>
+      <a className="otstup1" href="mailto:ashar.kg@gmail.com"><FontAwesomeIcon icon={faEnvelope} /> asharco.info@gmail.com</a>
       <p className="otstup">ddddddd</p>
       <a className="otstupo" href="tel:+996509515500"><FontAwesomeIcon icon={faMobileAlt} /> +996 (509) 515-500</a>
       <p className="otstup">ddddddd</p>
       <a className="otstup1" href="tel:+996559515500"><FontAwesomeIcon icon={faMobileAlt} /> +996 (559) 515-500</a>
       <p className="otstup">ddddddd</p>
-      <p className="sch"><FontAwesomeIcon icon={faClock} /> График р-ты: Пн-пт, 09:00 - 18:00</p>
+      <p className="sch"><FontAwesomeIcon icon={faClock} /> Время р-ты: Пн-пт, 09:00 - 18:00</p>
     </div>
 
     <div className="HeaderMainDiv ">

@@ -4,9 +4,9 @@ import { Container } from 'reactstrap'
 import home from '../assets/images/home.jpg'
 import apartment from '../assets/images/apartment.jpg'
 import hause from '../assets/images/hause.jpg'
-import tower from '../assets/images/tower.jpg'
-import dom6 from '../assets/images/dom6.jpg'
-import dom5 from '../assets/images/dom5.png'
+import bugg from '../assets/images/bugg.png'
+import lex from '../assets/images/lex.png'
+import mers from '../assets/images/mers.png'
 import './Header.css'
 
 function HomeCarousel() {
@@ -16,36 +16,36 @@ function HomeCarousel() {
           <Carousel.Item>
             <img
               className="imgcarousel d-block w-100"
-              src={dom6}
+              src={lex}
               alt="First slide"
               
             />
             <Carousel.Caption className="backph">
-              <h1 className="txt2">Построй дом в россрочку на 10 лет без %!</h1>
+              <h1 className="txt2">Купи авто в россрочку до 2-х лет без %!</h1>
               {/* <p>......</p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="imgcarousel d-block w-100"
-              src={tower}
+              src={bugg}
               alt="Third slide"
             />
 
             <Carousel.Caption className="backph">
-              <h2 className="txt1">Купи квартиру в рассрочку до 10лет без %!</h2>
+              <h2 className="txt1">Настало время обновить авто? Сделай это вместе с нами!</h2>
               {/* <p>... ...</p> */}
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="imgcarousel d-block w-100"
-              src={dom5}
+              src={mers}
               alt="Third slide"
             />
 
             <Carousel.Caption className="backph">
-              <h1 className="txt3">Стань обладателем собственного дома!</h1>
+              <h1 className="txt3">Мы поможем купить вам авто вашей мечты!</h1>
               {/* <h5>...</h5> */}
             </Carousel.Caption>
           </Carousel.Item>

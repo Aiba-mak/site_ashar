@@ -81,7 +81,7 @@ function Contact(props) {
               </MDBBtn>
               <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
               <p className="icon"><FontAwesomeIcon icon={faMapMarkerAlt} /> Бишкек, ул. Киевская 107 | офис 301</p> 
-              <p className="icon"><FontAwesomeIcon icon={faClock} /> График работы: Пн-пт, 9:00-18:00</p>
+              <p className="icon"><FontAwesomeIcon icon={faClock} /> Режим работы: Пн-пт, 9:00-18:00</p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn tag="a" floating color="blue" className="accent-1">
@@ -97,7 +97,7 @@ function Contact(props) {
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="envelope" />
               </MDBBtn>
-              <p className="icon"><FontAwesomeIcon icon={faEnvelope} /> ashar.kg@gmail.com</p>
+              <p className="icon"><FontAwesomeIcon icon={faEnvelope} /> asharco.info@gmail.com</p>
               <p className="icon"><FontAwesomeIcon icon={faCamera}/>  ashar_co</p>
             {/* <li>
               <a><InstagramEmbed

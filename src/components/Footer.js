@@ -71,7 +71,7 @@ function Footer() {
                                     <a href="tel:0312611402"><FontAwesomeIcon icon={faPhoneSquare} />  +996 (312) 611-402</a>
                                     </li>
                                     <li>
-                                    <a href="mailto:ashar.kg@gmail.com"><FontAwesomeIcon icon={faEnvelope} />  ashar.kg@gmail.com</a>
+                                    <a href="mailto:ashar.kg@gmail.com"><FontAwesomeIcon icon={faEnvelope} />  asharco.info@gmail.com</a>
                                     </li>
                                     <li>
                                     <a href="instagram://user?username={ashar_co}"><FontAwesomeIcon icon={faCamera} />  ashar_co</a>

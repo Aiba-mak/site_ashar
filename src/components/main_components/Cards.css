@@ -42,11 +42,33 @@
 }
 .he {
   font-weight: bold;
-  font-size: 30px;
+  font-size: 28px;
 }
 .mb-5 {
   font-family: Georgia;
   /* font-weight: bold; */
   /* font-size: 250%; */
   /* font-weight: bold; */
+}
+
+@media (max-width: 480px) {
+
+  .mb-6{
+    font-size: 22px;
+  }
+  .mb-8{
+    font-size: 22px;
+  }
+  .mb-10{
+    font-size: 22px;
+  }
+  .he {
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .text-primary {
+    font-size: 33px;
+    font-weight: bold;
+    color: black !important;
+  }
 }
